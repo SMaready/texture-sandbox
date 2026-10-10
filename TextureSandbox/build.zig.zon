@@ -1,0 +1,17 @@
+.{
+    .name = .texture_sandbox,
+    .version = "0.1.0",
+    .fingerprint = 0x88be8829965e85f,
+    .minimum_zig_version = "0.15.1",
+
+    .dependencies = .{},
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "header",
+        "src",
+        "libs",
+        "resource",
+    },
+}

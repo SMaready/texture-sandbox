@@ -1,0 +1,36 @@
+# ---- Zig build output and caches ----
+zig-out/
+.zig-cache/
+zig-cache/
+zig-pkg/
+
+# ---- Visual Studio ----
+.vs/
+out/
+*.user
+*.suo
+*.slnx
+
+# ---- Compiled binaries and debug files ----
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.o
+*.lib
+*.a
+*.dll
+*.exp
+
+# ---- Compiled shaders (if you ever precompile with fxc/dxc) ----
+*.cso
+
+# ---- Runtime logs (e.g. spdlog's TextureSandbox.log) ----
+# *.log
+
+# ---- Editor and OS clutter ----
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
