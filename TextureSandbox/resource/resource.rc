@@ -1,8 +1,12 @@
 #include <winver.h>
 
+// GLFW looks for an icon with this exact name and uses it for the window + taskbar.
+// Being the first icon in the exe, it's also what Explorer shows for TextureSandbox.exe.
+GLFW_ICON ICON "app.ico"
+
 VS_VERSION_INFO VERSIONINFO
-FILEVERSION 1, 0, 0, 0
-PRODUCTVERSION 1, 0, 0, 0
+FILEVERSION 0, 1, 0, 0
+PRODUCTVERSION 0, 1, 0, 0
 FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
 FILEFLAGS 0x1L
@@ -17,14 +21,14 @@ BLOCK "StringFileInfo"
 BEGIN
 BLOCK "040904E4"
 BEGIN
-VALUE "CompanyName", "Your Company Name"
-VALUE "FileDescription", "Your File Description"
-VALUE "FileVersion", "1.0.0.0"
-VALUE "InternalName", "Your Internal Name"
-VALUE "LegalCopyright", "Copyright ?? Your Company Year"
-VALUE "OriginalFilename", "YourExecutableName.exe"
-VALUE "ProductName", "Your Product Name"
-VALUE "ProductVersion", "1.0.0.0"
+VALUE "CompanyName", "Steph"
+VALUE "FileDescription", "TextureSandbox - DirectX 11 texture practice"
+VALUE "FileVersion", "0.1.0.0"
+VALUE "InternalName", "TextureSandbox"
+VALUE "LegalCopyright", "Copyright (C) 2026 Steph"
+VALUE "OriginalFilename", "TextureSandbox.exe"
+VALUE "ProductName", "TextureSandbox"
+VALUE "ProductVersion", "0.1.0.0"
 END
 END
 BLOCK "VarFileInfo"
